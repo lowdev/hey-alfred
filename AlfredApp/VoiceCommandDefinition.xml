@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="fr-fr" Name="CommandSet_fr-fr">
+    <CommandPrefix> écoute </CommandPrefix>
+    <Example> Open File, Open Website </Example>
+
+    <Command Name="OpenWebsite">
+      <Example> Open website </Example>
+      <ListenFor> Ouvre le site. </ListenFor>
+      <Feedback> Opening your website </Feedback>
+      <Navigate/>
+    </Command>
+
+    <Command Name="OpenFile">
+      <Example> Open file </Example>
+      <ListenFor> Open file </ListenFor>
+      <Feedback> Opening your file </Feedback>
+      <Navigate/>
+    </Command>
+
+  </CommandSet>
+
+</VoiceCommands>
